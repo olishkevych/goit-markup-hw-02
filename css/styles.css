@@ -19,6 +19,7 @@ body {
 
 /*logo*/
 .logo {
+  color: #2E2F42;
   font-family: Raleway;
   font-weight: 800;
   font-size: 18px;
@@ -98,6 +99,8 @@ body {
 }
 
 .button.order {
+  color: var(--primary-white-color);
+  background-color: #4D5AE5;
   line-height: 1.19;
   font-size: 16px;
 }

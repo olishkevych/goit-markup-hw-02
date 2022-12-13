@@ -1,0 +1,147 @@
+/*common*/
+:root {
+  --background-color: #ffffff;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: #f4f4fd;
+  --primary-accent-color: #4d5ae5;
+}
+body {
+  color: #2E2F42;
+  background-color: var(--background-color);
+  font-family: 'Roboto', 'Verdana', 'Helvetica', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+/*logo*/
+.logo {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-start {
+  color: #4d5ae5;
+}
+
+/*navigation*/
+
+.site-nav .link {
+  color: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #434455;
+}
+.site-nav .link:active {
+  color: #4d5ae5;
+}
+
+.contacts .link {
+  color: inherit;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+/*hero*/
+.hero {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--primary-white-color);
+}
+
+/*features*/
+
+.feature-ttl {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.feature-txt {
+  line-height: 1.5;
+  color: #434455;
+}
+
+/*sections*/
+.section-ttl {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  
+}
+
+/*buttons*/
+
+.button {
+  font-weight: 600;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.button.order {
+  line-height: 1.19;
+  font-size: 16px;
+}
+
+.button.order:active {
+  background-color: #404bbf;
+}
+
+.button.filter:active {
+  color: var(--primary-white-color);
+  background-color: var(--primary-accent-color);
+}
+
+.button.filter {
+  color: var(--primary-accent-color);
+  background-color: var(--secondary-white-color);
+}
+
+/*cards*/
+
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  
+}
+
+.card-category {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.card-text {
+  line-height: 1.5;
+  color: var(--secondary-white-color);
+}
+
+.centered {
+  text-align: center;
+}
+
+/*footer*/
+.footer {
+  line-height: 1.5;
+  color: #e7e9fc;
+}

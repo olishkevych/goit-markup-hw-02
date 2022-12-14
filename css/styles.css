@@ -92,6 +92,7 @@ body {
 /*buttons*/
 
 .button {
+  font-family: Roboto;
   font-weight: 600;
   font-size: inherit;
   letter-spacing: 0.04em;
